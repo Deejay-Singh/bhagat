@@ -35,8 +35,10 @@
 	<div id="wrapper">
 		<div id="header" class="container_16">
 			<div class="grid_16">
-				<h1 class="site-title"><?php echo $this->Html->link(Configure::read('Site.title'), '/'); ?></h1>
-				<span class="site-tagline"><?php echo Configure::read('Site.tagline'); ?></span>
+				<?php //<h1 class="site-title"><?php echo $this->Html->link(Configure::read('Site.title'), '/'); </h1>?>
+				<h1 class="site-title"><?php echo $this->Html->link('Bhagat Singh', '/'); ?></h1>
+				<span class="site-tagline"><?php //echo Configure::read('Site.tagline'); ?></span>
+				<span class="site-tagline"><?php echo "Powered by Daljeet Singh"; ?></span>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -65,7 +67,7 @@
 		<div id="footer">
 			<div class="container_16">
 				<div class="grid_8 left">
-					Powered by <a href="http://www.croogo.org">Croogo</a>.
+					Powered by Daljeet.
 				</div>
 				<div class="grid_8 right">
 					<a href="http://www.cakephp.org"><?php echo $this->Html->image('/img/cake.power.gif'); ?></a>
